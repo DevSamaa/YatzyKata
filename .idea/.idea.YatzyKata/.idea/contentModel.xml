@@ -19,6 +19,7 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="ScoreCalculator.cs" t="Include" />
         <e p="YatzyKata.csproj" t="IncludeRecursive" />
       </e>
       <e p="YatzyKata.sln" t="IncludeFlat" />
@@ -31,7 +32,7 @@
             </e>
           </e>
         </e>
-        <e p="UnitTest1.cs" t="Include" />
+        <e p="ScoreCalculator.cs" t="Include" />
         <e p="YatzyTests.csproj" t="IncludeRecursive" />
       </e>
     </e>
