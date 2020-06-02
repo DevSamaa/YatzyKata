@@ -13,15 +13,13 @@ namespace YatzyTests
         {
            _scoreCalculator = new ScoreCalculator(); 
         }
-        
+        // Step 1 - Chance Category
         public static IEnumerable<object[]> SampleData() 
         {
             yield return new object[] {new List<int>() { 1,1,3,3,6 }, 14 };
             yield return new object[] {new List<int>() { 4,5,5,6,1 }, 21 };
         }
         
-        // 1,1,3,3,6 placed on “chance” scores 14 (1+1+3+3+6)
-        // 4,5,5,6,1 placed on “chance” scores 21 (4+5+5+6+1)
         [Theory]
         [MemberData(nameof(SampleData))]
         public void TakeListOfNumbersAndReturnTheirSum(List<int>rolledDice, int expectedOutcome)
