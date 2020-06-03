@@ -32,7 +32,7 @@
             </e>
           </e>
         </e>
-        <e p="ScoreCalculator.cs" t="Include" />
+        <e p="ScoreCalculatorTests.cs" t="Include" />
         <e p="YatzyTests.csproj" t="IncludeRecursive" />
       </e>
     </e>

@@ -11,8 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa339513-cb0b-4c46-b582-1520b38baa05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/YatzyTests/ScoreCalculatorTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyTests/ScoreCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyTests/ScoreCalculator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YatzyKata.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YatzyTests/ScoreCalculator.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/YatzyTests/ScoreCalculator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YatzyTests/ScoreCalculatorTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YatzyKata/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -31,8 +35,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/YatzyTests/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" />
         <option value="$PROJECT_DIR$/YatzyTests/ScoreCalculator.cs" />
+        <option value="$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/ScoreCalculatorTests.cs" />
       </list>
     </option>
   </component>
@@ -83,7 +88,8 @@
       <workItem from="1591073566703" duration="47000" />
       <workItem from="1591073635630" duration="820000" />
       <workItem from="1591075864640" duration="1007000" />
-      <workItem from="1591077159246" duration="493000" />
+      <workItem from="1591077159246" duration="4542000" />
+      <workItem from="1591148031547" duration="2877000" />
     </task>
     <servers />
   </component>
