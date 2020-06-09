@@ -174,6 +174,8 @@ namespace YatzyKata
     }
     
     //TODO - ask why numberToBeChecked is yellow underlines, I didn't understand the IDE explanation/suggestion.
-    //TODO - get feedback on FullHouse/FullHouse2, which one is "better" in FullHouse2 I don't keep track of the actual total score, just add up all numbers in the end.
+    //TODO - get feedback on FullHouse/FullHouse2, which one is "better" in FullHouse2 I don't keep track of
+    //the actual total score, just add up all numbers in the end.
+    
 }
 
