@@ -11,7 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa339513-cb0b-4c46-b582-1520b38baa05" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YatzyTests/ScoreCalculatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyTests/ScoreCalculatorTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +34,8 @@
       <list>
         <option value="$PROJECT_DIR$/YatzyTests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/YatzyTests/ScoreCalculator.cs" />
-        <option value="$PROJECT_DIR$/YatzyTests/ScoreCalculatorTests.cs" />
         <option value="$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/ScoreCalculatorTests.cs" />
       </list>
     </option>
   </component>
@@ -90,7 +92,7 @@
       <workItem from="1591148031547" duration="5683000" />
       <workItem from="1591164884525" duration="207000" />
       <workItem from="1591230446382" duration="1452000" />
-      <workItem from="1591248649554" duration="11129000" />
+      <workItem from="1591248649554" duration="12084000" />
     </task>
     <servers />
   </component>

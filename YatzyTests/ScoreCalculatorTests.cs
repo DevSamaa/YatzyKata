@@ -278,7 +278,7 @@ namespace YatzyTests
         [MemberData(nameof(FullHouseCategory))]
         public void FullHouseShouldReturnSumOfAllDice(List<int>rolledDice, int expectedOutcome)
         {
-            var result = _scoreCalculator.FullHouse2(rolledDice);
+            var result = _scoreCalculator.FullHouse(rolledDice);
             Assert.Equal(expectedOutcome, result);
         }
     }

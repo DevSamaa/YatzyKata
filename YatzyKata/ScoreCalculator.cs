@@ -122,40 +122,15 @@ namespace YatzyKata
             return 0;
         }
         
+    
         public int FullHouse(List<int>rolledDice)
         {
             var numberToBeChecked = 6;
-            var total = 0;
             var pairsFound = 0;
             
             while (numberToBeChecked >0)
             {
-                var numberFound = rolledDice.Where(dice => dice == numberToBeChecked);
-                if (numberFound.Count() ==3)
-                {
-                    total += numberToBeChecked * 3;
-                    pairsFound++;
-
-                    var remainingNumbers = rolledDice.Where(dice => dice != numberToBeChecked).ToArray();
-                    if (remainingNumbers[0] == remainingNumbers[1])
-                    {
-                        total += remainingNumbers.Sum();
-                        pairsFound++;
-                    }
-                }
-                numberToBeChecked -= 1;  
-            }
-            return pairsFound<2? 0:total;
-        }
-        
-        public int FullHouse2(List<int>rolledDice)
-        {
-            var numberToBeChecked = 6;
-            var pairsFound = 0;
-            
-            while (numberToBeChecked >0)
-            {
-                var numberFound = rolledDice.Where(dice => dice == numberToBeChecked);
+                var numberFound = rolledDice.Where(dice => dice == numberToBeChecked).ToList();
                 if (numberFound.Count() ==3)
                 {
                     pairsFound++;
@@ -173,9 +148,7 @@ namespace YatzyKata
         
     }
     
-    //TODO - ask why numberToBeChecked is yellow underlines, I didn't understand the IDE explanation/suggestion.
-    //TODO - get feedback on FullHouse/FullHouse2, which one is "better" in FullHouse2 I don't keep track of
-    //the actual total score, just add up all numbers in the end.
+  
     
 }
 
