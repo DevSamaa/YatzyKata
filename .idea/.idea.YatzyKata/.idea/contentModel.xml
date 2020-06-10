@@ -38,7 +38,6 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
-        <e p="ScoreCalculator.cs" t="Include" />
         <e p="YatzyKata.csproj" t="IncludeRecursive" />
       </e>
       <e p="YatzyKata.sln" t="IncludeFlat" />
@@ -46,6 +45,20 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Categories" t="Include">
           <e p="ChanceTests.cs" t="Include" />
+          <e p="Fivestests.cs" t="Include" />
+          <e p="FourOfAKindTests.cs" t="Include" />
+          <e p="FoursTests.cs" t="Include" />
+          <e p="FullHouseTests.cs" t="Include" />
+          <e p="LargeStraightTests.cs" t="Include" />
+          <e p="OnesTests.cs" t="Include" />
+          <e p="PairsTests.cs" t="Include" />
+          <e p="SixesTests.cs" t="Include" />
+          <e p="SmallStraightTests.cs" t="Include" />
+          <e p="ThreeOfAKindTests.cs" t="Include" />
+          <e p="ThreesTests.cs" t="Include" />
+          <e p="TwoPairsTests.cs" t="Include" />
+          <e p="TwosTests.cs" t="Include" />
+          <e p="YatzyTests.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -54,7 +67,6 @@
             </e>
           </e>
         </e>
-        <e p="ScoreCalculatorTests.cs" t="Include" />
         <e p="YatzyTests.csproj" t="IncludeRecursive" />
       </e>
     </e>

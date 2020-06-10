@@ -11,29 +11,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa339513-cb0b-4c46-b582-1520b38baa05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/Chance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/Fives.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/FourOfAKind.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/Fours.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/FullHouse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/Helpers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/ICategory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/LargeStraight.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/Ones.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/Pairs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/Sixes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/SmallStraight.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/ThreeOfAKind.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/Threes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/TwoPairs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/Twos.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/Categories/Yatzy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyTests/Categories/ChanceTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YatzyTests/Categories/FivesTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YatzyTests/Categories/FourOfAKindTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YatzyTests/Categories/FoursTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YatzyTests/Categories/FullHouseTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YatzyTests/Categories/LargeStraightTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YatzyTests/Categories/OnesTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YatzyTests/Categories/PairsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YatzyTests/Categories/SixesTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YatzyTests/Categories/SmallStraightTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YatzyTests/Categories/ThreeOfAKindTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YatzyTests/Categories/ThreesTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YatzyTests/Categories/TwoPairsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YatzyTests/Categories/TwosTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YatzyTests/Categories/YatzyTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YatzyKata.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyTests/ScoreCalculatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyTests/ScoreCalculatorTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/Pairs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/Pairs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YatzyKata/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YatzyTests/Categories/ChanceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyTests/Categories/ChanceTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YatzyTests/ScoreCalculatorTests.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +44,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/YatzyKata/Categories/Twos.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YatzyTests/Categories/SixesTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YatzyKata/Categories/Pairs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YatzyKata/Categories/Helpers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YatzyTests/Categories/PairsTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YatzyTests/Categories/TwoPairsTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YatzyTests/Categories/ThreeOfAKindTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YatzyTests/Categories/FourOfAKindTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YatzyTests/Categories/SmallStraightTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YatzyTests/Categories/LargeStraightTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YatzyKata/Categories/Yatzy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/YatzyKata/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YatzyTests/Categories/FullHouseTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YatzyKata/Categories/Threes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YatzyKata/Categories/Fours.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YatzyKata/Categories/Fives.cs" root0="FORCE_HIGHLIGHTING" />
@@ -58,14 +64,19 @@
     <setting file="file://$PROJECT_DIR$/YatzyKata/Categories/FourOfAKind.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YatzyKata/Categories/SmallStraight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YatzyKata/Categories/LargeStraight.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/YatzyTests/ScoreCalculatorTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YatzyKata/Categories/FullHouse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/57/41f00f9a/TestInvoker`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YatzyKata/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YatzyTests/Categories/YatzyTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YatzyTests/Categories/OnesTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YatzyTests/Categories/ThreesTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YatzyTests/Categories/FoursTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YatzyTests/Categories/TwosTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YatzyKata/Categories/ICategory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YatzyKata/Categories/Chance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YatzyTests/Categories/ChanceTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/57/41f00f9a/TestInvoker`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YatzyKata/Categories/Ones.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YatzyTests/Categories/FivesTests.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -73,10 +84,7 @@
         <option value="$PROJECT_DIR$/YatzyTests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/YatzyTests/ScoreCalculator.cs" />
         <option value="$PROJECT_DIR$/YatzyKata/Categories/Chance.cs" />
-        <option value="$PROJECT_DIR$/YatzyTests/ScoreCalculatorTests.cs" />
-        <option value="$PROJECT_DIR$/YatzyTests/Categories/ChanceTests.cs" />
         <option value="$PROJECT_DIR$/YatzyKata/Categories/Ones.cs" />
-        <option value="$PROJECT_DIR$/YatzyKata/Categories/Twos.cs" />
         <option value="$PROJECT_DIR$/YatzyKata/Categories/Threes.cs" />
         <option value="$PROJECT_DIR$/YatzyKata/Categories/Yatzy.cs" />
         <option value="$PROJECT_DIR$/YatzyKata/Categories/Fours.cs" />
@@ -84,14 +92,35 @@
         <option value="$PROJECT_DIR$/YatzyKata/Categories/Sixes.cs" />
         <option value="$PROJECT_DIR$/YatzyKata/Categories/TwoPairs.cs" />
         <option value="$PROJECT_DIR$/YatzyKata/Categories/ICategory.cs" />
-        <option value="$PROJECT_DIR$/YatzyKata/Categories/Pairs.cs" />
         <option value="$PROJECT_DIR$/YatzyKata/Categories/FourOfAKind.cs" />
         <option value="$PROJECT_DIR$/YatzyKata/Categories/ThreeOfAKind.cs" />
         <option value="$PROJECT_DIR$/YatzyKata/Categories/Helpers.cs" />
         <option value="$PROJECT_DIR$/YatzyKata/Categories/SmallStraight.cs" />
         <option value="$PROJECT_DIR$/YatzyKata/Categories/LargeStraight.cs" />
-        <option value="$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" />
         <option value="$PROJECT_DIR$/YatzyKata/Categories/FullHouse.cs" />
+        <option value="$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/OnesTests.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/YatzyTests.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/ChanceTests.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/Twos.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/ThreesTests.cs" />
+        <option value="$PROJECT_DIR$/YatzyKata/Categories/Twos.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/FoursTests.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/TwosTests.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/Fivestests.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/FivesTests.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/SixesTests.cs" />
+        <option value="$PROJECT_DIR$/YatzyKata/Categories/Pairs.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/Pairs.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/PairsTests.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/TwoPairsTests.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/ThreeOfAKindTests.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/FourOfAKindTests.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/SmallStraightTests.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/LargeStraightTests.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/Categories/FullHouseTests.cs" />
+        <option value="$PROJECT_DIR$/YatzyTests/ScoreCalculatorTests.cs" />
+        <option value="$PROJECT_DIR$/YatzyKata/Program.cs" />
       </list>
     </option>
   </component>
@@ -148,7 +177,7 @@
       <workItem from="1591148031547" duration="5683000" />
       <workItem from="1591164884525" duration="207000" />
       <workItem from="1591230446382" duration="1452000" />
-      <workItem from="1591248649554" duration="17176000" />
+      <workItem from="1591248649554" duration="20717000" />
     </task>
     <servers />
   </component>

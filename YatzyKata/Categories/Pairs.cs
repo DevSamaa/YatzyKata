@@ -14,7 +14,6 @@ namespace YatzyKata.Categories
         public int CalculateScore(List<int> rolledDice)
         {
             return _helper.AddUpMultiples(rolledDice, 2);
-
         }
     }
 }

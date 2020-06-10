@@ -6,7 +6,6 @@ namespace YatzyTests.Categories
 {
     public class ChanceTests
     {
-        // Step 1 - Chance Category
         public static IEnumerable<object[]> ChanceCategory() 
         {
             yield return new object[] {new List<int>() { 1,1,3,3,6 }, 14 };
