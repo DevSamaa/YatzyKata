@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Xunit;
 using YatzyKata;
+using YatzyKata.Categories;
 
 namespace YatzyTests
 
@@ -15,21 +16,7 @@ namespace YatzyTests
            _scoreCalculator = new ScoreCalculator(); 
         }
         
-        // Step 1 - Chance Category
-        public static IEnumerable<object[]> ChanceCategory() 
-        {
-            yield return new object[] {new List<int>() { 1,1,3,3,6 }, 14 };
-            yield return new object[] {new List<int>() { 4,5,5,6,1 }, 21 };
-        }
         
-        [Theory]
-        [MemberData(nameof(ChanceCategory))]
-        public void ChanceShouldReturnSumOfAllNumbers(List<int>rolledDice, int expectedOutcome)
-        {
-            var result = _scoreCalculator.Chance(rolledDice);
-            Assert.Equal(expectedOutcome, result);
-        }
-
       
         //Step 2 - Yatzy Category
         public static IEnumerable<object[]> YatzyCategory() 
