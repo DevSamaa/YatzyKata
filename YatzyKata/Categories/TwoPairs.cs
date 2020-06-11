@@ -5,6 +5,8 @@ namespace YatzyKata.Categories
 {
     public class TwoPairs : ICategory
     {
+        public string Name => "Two Pairs";
+
         public int CalculateScore(List<int> rolledDice)
         {
             var numberToBeChecked = 6;

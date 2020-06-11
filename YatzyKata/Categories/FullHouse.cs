@@ -5,6 +5,9 @@ namespace YatzyKata.Categories
 {
     public class FullHouse : ICategory
     {
+
+        public string Name => "Full House";
+
         public int CalculateScore(List<int> rolledDice)
         {
             var numberToBeChecked = 6;

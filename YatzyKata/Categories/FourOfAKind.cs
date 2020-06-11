@@ -4,6 +4,8 @@ namespace YatzyKata.Categories
 {
     public class FourOfAKind : ICategory
     {
+        public string Name => "Four of a kind";
+
         private Helpers _helper;
 
         public FourOfAKind()

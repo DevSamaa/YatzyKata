@@ -1,19 +1,23 @@
 using System.Collections.Generic;
+using System.Linq;
 
 namespace YatzyKata.Categories
 {
     public class SmallStraight :ICategory
     {
+        public string Name => "Small Straight";
         private Helpers _helper;
 
         public SmallStraight()
         {
             _helper = new Helpers();
         }
+
+
         public int CalculateScore(List<int> rolledDice)
         {
-            List<int> smallStraightNumbers = new List<int>{1,2,3,4,5};
-            return _helper.SumOfStraight(rolledDice, smallStraightNumbers);
+            var range = Enumerable.Range(1, 5).ToList();
+            return _helper.SumOfStraight(rolledDice, range);
         }
     }
 }

@@ -4,6 +4,7 @@ namespace YatzyKata.Categories
 {
     public class Pairs : ICategory
     {
+        public string Name => "Pairs";
         private Helpers _helper;
         
         public Pairs()

@@ -22,6 +22,24 @@ namespace YatzyKata.Categories
         
         public int SumOfStraight(List<int> rolledDice, List<int>straightNumbers)
         {
+           
+            rolledDice.Sort();
+            bool isEqual = rolledDice.SequenceEqual(straightNumbers);
+            if (isEqual)
+            {
+                return rolledDice.Sum();
+            }
+            return 0;
+        }
+        
+        public int SumOfStraight2(List<int> rolledDice)
+        {
+            //DO NOT CREATE A RANGE TO COMPARE THE INCOMING LIST TO!!! DO NOT!!!
+            for (int i = 0; i < UPPER; i++)
+            {
+                
+            }
+            
             rolledDice.Sort();
             bool isEqual = rolledDice.SequenceEqual(straightNumbers);
             if (isEqual)

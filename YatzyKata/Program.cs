@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using YatzyKata.Categories;
 
 namespace YatzyKata
 {
@@ -7,7 +9,8 @@ namespace YatzyKata
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            
         }
+
+       
     }
 }

@@ -30,6 +30,7 @@
           <e p="Twos.cs" t="Include" />
           <e p="Yatzy.cs" t="Include" />
         </e>
+        <e p="CategoryScore.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -38,6 +39,7 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="ScoreCalculator.cs" t="Include" />
         <e p="YatzyKata.csproj" t="IncludeRecursive" />
       </e>
       <e p="YatzyKata.sln" t="IncludeFlat" />
@@ -67,6 +69,7 @@
             </e>
           </e>
         </e>
+        <e p="ScoreCalculatorTests.cs" t="Include" />
         <e p="YatzyTests.csproj" t="IncludeRecursive" />
       </e>
     </e>
