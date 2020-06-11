@@ -35,17 +35,17 @@ namespace YatzyKata.Categories
         public int SumOfStraight2(List<int> rolledDice)
         {
             //DO NOT CREATE A RANGE TO COMPARE THE INCOMING LIST TO!!! DO NOT!!!
-            for (int i = 0; i < UPPER; i++)
-            {
-                
-            }
-            
-            rolledDice.Sort();
-            bool isEqual = rolledDice.SequenceEqual(straightNumbers);
-            if (isEqual)
-            {
-                return rolledDice.Sum();
-            }
+            // for (int i = 0; i < UPPER; i++)
+            // {
+            //     
+            // }
+            //
+            // rolledDice.Sort();
+            // bool isEqual = rolledDice.SequenceEqual(straightNumbers);
+            // if (isEqual)
+            // {
+            //     return rolledDice.Sum();
+            // }
             return 0;
         }
     }

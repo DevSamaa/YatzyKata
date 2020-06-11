@@ -11,30 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa339513-cb0b-4c46-b582-1520b38baa05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/YatzyKata/CategoryScore.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YatzyTests/ScoreCalculatorTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/Chance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/Chance.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/Fives.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/Fives.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/FourOfAKind.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/FourOfAKind.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/Fours.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/Fours.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/FullHouse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/FullHouse.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/Helpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/Helpers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/ICategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/ICategory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/LargeStraight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/LargeStraight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/Ones.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/Ones.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/Pairs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/Pairs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/Sixes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/Sixes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/SmallStraight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/SmallStraight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/ThreeOfAKind.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/ThreeOfAKind.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/Threes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/Threes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/TwoPairs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/TwoPairs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/Twos.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/Twos.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/Yatzy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/Yatzy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,6 +165,7 @@
       <workItem from="1591248649554" duration="22165000" />
       <workItem from="1591837892783" duration="4961000" />
       <workItem from="1591852563920" duration="3716000" />
+      <workItem from="1591858532031" duration="36000" />
     </task>
     <servers />
   </component>
