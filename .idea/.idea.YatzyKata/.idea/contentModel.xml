@@ -10,6 +10,7 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="YatzyKata" t="IncludeRecursive">
+        <e p="AllCategories.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Categories" t="Include">
           <e p="Chance.cs" t="Include" />

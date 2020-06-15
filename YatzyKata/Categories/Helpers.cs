@@ -32,21 +32,32 @@ namespace YatzyKata.Categories
             return 0;
         }
         
-        public int SumOfStraight2(List<int> rolledDice)
+        
+        public int SumOfStraight2(List<int> rolledDice, int firstNumber)
         {
-            //DO NOT CREATE A RANGE TO COMPARE THE INCOMING LIST TO!!! DO NOT!!!
-            // for (int i = 0; i < UPPER; i++)
-            // {
-            //     
-            // }
-            //
-            // rolledDice.Sort();
-            // bool isEqual = rolledDice.SequenceEqual(straightNumbers);
-            // if (isEqual)
-            // {
-            //     return rolledDice.Sum();
-            // }
+            var matchesPattern = MatchesPattern(rolledDice, firstNumber);
+            if (matchesPattern)
+            {
+                return rolledDice.Sum();
+            }
             return 0;
+        }
+        
+   
+        private bool MatchesPattern(List<int> rolledDice, int firstNumber)
+        {
+           rolledDice.Sort();
+            for (int i = 0; i < 5; i++)
+            {
+                var isExpectedNumber = rolledDice[i] == i + firstNumber;
+                if (!isExpectedNumber)
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
     }
 }
+
