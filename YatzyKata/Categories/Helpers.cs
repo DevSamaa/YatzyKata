@@ -20,20 +20,8 @@ namespace YatzyKata.Categories
             return 0;
         }
         
-        public int SumOfStraight(List<int> rolledDice, List<int>straightNumbers)
-        {
-           
-            rolledDice.Sort();
-            bool isEqual = rolledDice.SequenceEqual(straightNumbers);
-            if (isEqual)
-            {
-                return rolledDice.Sum();
-            }
-            return 0;
-        }
         
-        
-        public int SumOfStraight2(List<int> rolledDice, int firstNumber)
+        public int SumOfStraight(List<int> rolledDice, int firstNumber)
         {
             var matchesPattern = MatchesPattern(rolledDice, firstNumber);
             if (matchesPattern)

@@ -11,16 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa339513-cb0b-4c46-b582-1520b38baa05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/YatzyKata/AllCategories.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YatzyKata/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/Helpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/Helpers.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/LargeStraight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/LargeStraight.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YatzyKata/Categories/SmallStraight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/Categories/SmallStraight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyKata/ScoreCalculator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyTests/Categories/FoursTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyTests/Categories/FoursTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YatzyTests/ScoreCalculatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YatzyTests/ScoreCalculatorTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,6 +174,7 @@
       <workItem from="1591935792364" duration="704000" />
       <workItem from="1591936594005" duration="21000" />
       <workItem from="1591936716899" duration="4662000" />
+      <workItem from="1592197603988" duration="443000" />
     </task>
     <servers />
   </component>
@@ -296,5 +291,9 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="440" y="275" key="Rider.ProjectTemplateDialog.Size/0.23.1680.1027@0.23.1680.1027" timestamp="1591073591428" />
+    <state x="594" y="254" key="RollbackChangesDialog" timestamp="1592187783505">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="594" y="254" key="RollbackChangesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1592187783505" />
   </component>
 </project>

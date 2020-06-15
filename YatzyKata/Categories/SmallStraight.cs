@@ -16,11 +16,7 @@ namespace YatzyKata.Categories
 
         public int CalculateScore(List<int> rolledDice)
         {
-            // var range = Enumerable.Range(1, 5).ToList();
-            // return _helper.SumOfStraight2(rolledDice, range);
-            
-            return _helper.SumOfStraight2(rolledDice, 1);
-
+            return _helper.SumOfStraight(rolledDice, 1);
         }
     }
 }

@@ -23,6 +23,9 @@
     &lt;TestId&gt;xUnit::43B11C45-B517-4851-9ED6-0C5E43D10F5D::.NETCoreApp,Version=v3.1::YatzyTests.ScoreCalculatorTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a59688d7_002D4cc0_002D47d1_002Da9e4_002Da20a262bc9d1/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="False" ContinuousTestingMode="0" FrameworkVersion="{x:Null}" IsLocked="False" Name="All tests from &amp;lt;YatzyTests&amp;gt; #2" PlatformMonoPreference="{x:Null}" PlatformType="{x:Null}" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+  &lt;Project Location="/Users/samaa.kanani/Desktop/Learning-C#/YatzyKata/YatzyTests" Presentation="&amp;lt;YatzyTests&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ec0298ed_002D911d_002D484d_002Dbee1_002Dc78d2e2ea8b5/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="False" ContinuousTestingMode="0" FrameworkVersion="{x:Null}" IsLocked="False" Name="GetScoresHigherThan0ShouldReturnListOfScores" PlatformMonoPreference="{x:Null}" PlatformType="{x:Null}" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::43B11C45-B517-4851-9ED6-0C5E43D10F5D::.NETCoreApp,Version=v3.1::YatzyTests.ScoreCalculatorTests&lt;/TestId&gt;
