@@ -1,140 +1,81 @@
-# String Calculator Kata
+# Yatzy Kata
 
-## The Process
+The game of Yatzy is a simple dice game. Each player rolls five six-sided dice. They can re-roll some or all of the dice up to three times (including the original roll).  
 
-- Try not to read ahead.  
-- Do one step at a time - work incrementally.  
-- Make sure you only test for correct inputs - there is no need to test for invalid inputs
+## Task 
 
-## The Steps 
+This Kata is quite easy for TDD beginners since the test cases are more or less enumerated in the problem description. The order to implement them in is not prescribed, though, so you can practice that aspect of TDD.
 
-### Step 1 
+Do this kata again from scratch and tackle the test cases in a different order. Does this affect the design you end up with? Can you take the tests in any order at all?
 
-Create a simple string calculator with a method that takes a string and returns a number.  
 
-~~~
-Add("") > Returns 0
-~~~
+## The rules of the game  
 
-### Step 2 
+For example, suppose a players rolls (3,4,5,5,2). They hold (-,-,5,5,-) and re-roll (3,4,-,-,2) to get (5,1,5,5,3). They decide to hold (5,-,5,5,-) and re-roll (-,1,-,-,3). They end up with (5,6,5,5,2).  
 
-A single number returns that number.  
+The player then places the roll in a category, such as ones, twos, fives, pair, two pairs etc (see below). If the roll is compatible with the category, the player gets a score for the roll according to the rules. If the roll is not compatible with the category, the player scores zero for the roll.  
 
-~~~
-Add("1") > Returns 1
-Add("3") > Returns 3
-~~~
+For example, suppose a player scores (5,6,5,5,2) in the fives category they would score 15 (three fives). The score for that go is then added to their total and the category cannot be used again in the remaining goes for that game. A full game consists of one go for each category. Thus, for their last go in a game, a player must choose their only remaining category.  
 
-### Step 3 
+Your task is to score a given roll in a given category. You do not have to program the random dice rolling. The game is not played by letting the computer choose the highest scoring category for a given roll.  
 
-Two numbers return the sum of the numbers.  
+### Categories & Scoring Rules  
 
-~~~
-Add("1,2") > Returns 3
-Add("3,5") > Returns 8
-~~~
+Chance: The player scores the sum of all dice, no matter what they read. For example,  
 
-### Step 4 
+* 1,1,3,3,6 placed on “chance” scores 14 (1+1+3+3+6) 
+* 4,5,5,6,1 placed on “chance” scores 21 (4+5+5+6+1)  
 
-Any amount of numbers returns the sum of those numbers.  
+Yatzy: If all dice have the same number, the player scores 50 points. For example,  
 
-~~~
-Add("1,2,3") > Returns 6
-Add("3,5,3,9") > Returns 20
-~~~
+* 1,1,1,1,1 placed on “yatzy” scores 50  
+* 1,1,1,2,1 placed on “yatzy” scores 0  
 
-### Step 5 
+Ones, Twos, Threes, Fours, Fives, Sixes: The player scores the sum of the dice that reads one, two, three, four, five or six, respectively. For example,  
 
-New line breaks and commas should be interchangeable between numbers.  
+* 1,1,2,4,4 placed on “fours” scores 8 (4+4)  
+* 2,3,2,5,1 placed on “twos” scores 4 (2+2)   
+* 3,3,3,4,5 placed on “ones” scores 0  
 
-~~~
-Add("1,2\n3") > Returns 6
-Add("3\n5\n3,9") > Returns 20
-~~~
+Pair: The player scores the sum of the two highest matching dice. For example, when placed on “pair”  
+* 3,3,3,4,4 scores 8 (4+4)   
+* 1,1,6,2,6 scores 12 (6+6)   
+* 3,3,3,4,1 scores 6 (3+3)   
+* 3,3,3,3,1 scores 6 (3+3)  
 
-The following is not ok, don't write a test but be aware... 
+Two pairs: If there are two pairs of dice with the same number, the player scores the sum of these dice. For example, when placed on “two pairs”  
+* 1,1,2,3,3 scores 8 (1+1+3+3)   
+* 1,1,2,3,4 scores 0  
+* 1,1,2,2,2 scores 6 (1+1+2+2)  
 
-~~~
-Add("1,\n")
-~~~
+Three of a kind: If there are three dice with the same number, the player scores the sum of these dice. For example, when placed on “three of a kind”
+* 3,3,3,4,5 scores 9 (3+3+3)   
+* 3,3,4,5,6 scores 0  
+* 3,3,3,3,1 scores 9 (3+3+3)  
 
-### Step 6 
+Four of a kind: If there are four dice with the same number, the player scores the sum of these dice. For example, when placed on “four of a kind”
+* 2,2,2,2,5 scores 8 (2+2+2+2)   
+* 2,2,2,5,5 scores 0  
+* 2,2,2,2,2 scores 8 (2+2+2+2)  
 
-Support different delimiters - to change a delimiter, the beginning of the string will contain a separate line that looks like this:   
+Small straight: When placed on “small straight”, if the dice read (1,2,3,4,5), the player scores 15 (the sum of all the dice). 
+Large straight: When placed on “large straight”, if the dice read (2,3,4,5,6), the player scores 20 (the sum of all the dice).  
 
-**"//[delimiter]\n[numbers...]"**  
+Full house: If the dice are two of a kind and three of a kind, the player scores the sum of all the dice. For example, when placed on “full house”  
 
-~~~
-Add("//;\n1;2") > Returns 3  
-~~~
+* 1,1,2,2,2 scores 8 (1+1+2+2+2) 
+* 2,2,3,3,4 scores 0
+* 4,4,4,4,4 scores 0
 
-The first section up to the \n is optional. All existing steps should still be supported.  
+## Simplification & Extension  
 
-### Step 7 
+If you’re short of time for this kata, one simplification is to have it always return the sum of the dice, or zero. So the implementation just has to work out if the dice match a category or not.  
+If you’d like to extend the exercise, try adding a requirement to take a given roll, and return a sorted list of all the categories that give a non-zero score for it. Then you’re half-way to an AI that can play the game for you...   
 
-Calling add with a negative number will throw an exception "Negatives not allowed" and the negative number that was passed.  
+## Additional discussion points for the Retrospective
 
-~~~
-Add("-1,2,-3") > Throws exception with Negatives not allowed: -1, -3  
-~~~
+How much duplication is there in your solution? In your test code?
 
-### Step 8 
-
-Numbers greater or equal to 1000 should be ignored.  
-
-~~~
-Add("1000,1001,2") > Returns 2  
-~~~
-
-### Step 9 
-
-Delimiters can be of any length with the following format.  
-
-**"//[delimiter]\n"**  
-
-~~~
-Add("//[***]\n1***2***3") > Returns 6  
-~~~
-
-### Step 10 
-
-Allow multiple delimiters...  
-
-**"//[delim1][delim2]\n"**
-
-~~~
-Add("//[*][%]\n1*2%3") > Returns 6  
-~~~
-
-### Step 11 
-
-Handle multiple delimiters with a length longer than one character.  
-
-~~~
-Add("//[***][#][%]\n1***2#3%4") > Returns 10  
-~~~
-
-### Step 12 
-
-Handle delimiters that have numbers as part of them, where the number cannot be on the edge of a delimiter.  
-
-~~~
-Add("//[*1*][%]\n1*1*2%3") > Returns 6  
-~~~
-
-Note, a delimiter of 1DD or DD1 is not valid as it has a number on the edge of it. D1D is a valid delimiter.
-
-----------------------------------------------------------------------------------------------
-
-## Quick Summary of the rules #
-
-- Empty String Returns 0  
-- Two Numbers returns Sum  
-- X Numbers Returns Sum  
-- Custom Delimiter "//;\n1;2" = 3  
-- Handle new line as delimiter  
-- Cannot add negative numbers  
-- Number bigger than 1000 are ignored  
-- Delimiter of any length "//[dd]\n|[dd]2"=3  
-- Allow multiple delimiter "//[%][;]\n1%2;3"=6  
-- Multiple delimiter of any length  
+* Did you write a list of test cases before you started? How did you decide what order to implement them in?  
+* If you did this as a refactoring kata, discuss the code smells you identified. Do you have them in your pro-
+duction code?  
